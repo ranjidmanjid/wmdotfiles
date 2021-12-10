@@ -1,0 +1,3 @@
+weather = "$(curl 'https://wttr.in/Wiesbaden?format="%C+%t+%w\n"')"
+
+printf "%s\n" "$weather" 
